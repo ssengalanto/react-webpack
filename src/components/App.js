@@ -4,7 +4,7 @@ import '../sass/main.scss'
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="App" data-test="app-component">
       <header className="App-header">
         <img src={logo} alt="ssen galanto" />
         <p className="text">
